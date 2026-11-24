@@ -1,0 +1,95 @@
+{
+  "extName": {
+    "message": "Emoji Win Flags - 國旗 Emoji 字體替換",
+    "description": "Extension name shown in Chrome Web Store and chrome://extensions"
+  },
+  "extTitle": {
+    "message": "Emoji Win Flags - 國旗字體替換",
+    "description": "Browser action tooltip title"
+  },
+  "extDescription": {
+    "message": "修復 Windows 下國旗 Emoji 顯示為國家代碼字母的問題，支援自由切換 Twemoji、Noto、OpenMoji 及自訂本地字體。",
+    "description": "Extension description"
+  },
+  "popupSubtitle": {
+    "message": "Windows 國旗 Emoji 字體替換"
+  },
+  "globalToggleTitle": {
+    "message": "全域開關"
+  },
+  "previewLabel": {
+    "message": "即時預覽"
+  },
+  "previewPaused": {
+    "message": "$FONT$（已暫停）",
+    "placeholders": {
+      "font": {
+        "content": "$1"
+      }
+    }
+  },
+  "previewSentence": {
+    "message": "混排測試：台北 🇹🇼 · 紐約 🇺🇸 · 東京 🇯🇵 · 倫敦 🇬🇧"
+  },
+  "selectFontTitle": {
+    "message": "選擇國旗字體"
+  },
+  "importLocalFont": {
+    "message": "+ 匯入本地字體"
+  },
+  "currentSiteLabel": {
+    "message": "目前網站"
+  },
+  "siteToggleTitle": {
+    "message": "在目前網站啟用"
+  },
+  "fontTwemojiSubtitle": {
+    "message": "Twitter / X 扁平簡潔風"
+  },
+  "fontNotoSubtitle": {
+    "message": "Google 波浪旗幟風"
+  },
+  "fontOpenmojiSubtitle": {
+    "message": "開源描邊手繪風"
+  },
+  "customFontTag": {
+    "message": "自訂"
+  },
+  "customFontSubtitle": {
+    "message": "本地匯入 ($EXT$)",
+    "placeholders": {
+      "ext": {
+        "content": "$1"
+      }
+    }
+  },
+  "customFontFallbackSubtitle": {
+    "message": "本地匯入字體"
+  },
+  "deleteCustomFontTitle": {
+    "message": "刪除自訂字體"
+  },
+  "statusDeleted": {
+    "message": "已刪除自訂字體"
+  },
+  "statusFileTooLarge": {
+    "message": "字體檔案過大（最大支援 5 MB）"
+  },
+  "statusImported": {
+    "message": "已匯入並切換至「$NAME$」",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusInvalidFont": {
+    "message": "無法解析該字體檔案，請確認格式為 woff2/woff/ttf/otf"
+  },
+  "langAuto": {
+    "message": "自動"
+  },
+  "langSelectTitle": {
+    "message": "切換介面語言"
+  }
+}

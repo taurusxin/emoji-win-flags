@@ -1,0 +1,95 @@
+{
+  "extName": {
+    "message": "Emoji Win Flags - Flag Emoji Font Fixer",
+    "description": "Extension name shown in Chrome Web Store and chrome://extensions"
+  },
+  "extTitle": {
+    "message": "Emoji Win Flags - Flag Emoji Font Fixer",
+    "description": "Browser action tooltip title"
+  },
+  "extDescription": {
+    "message": "Fix country flag emojis rendering as two-letter codes on Windows. Switch between Twemoji, Noto, OpenMoji, or custom local fonts.",
+    "description": "Extension description"
+  },
+  "popupSubtitle": {
+    "message": "Windows Flag Emoji Font Fixer"
+  },
+  "globalToggleTitle": {
+    "message": "Enable or disable globally"
+  },
+  "previewLabel": {
+    "message": "Live Preview"
+  },
+  "previewPaused": {
+    "message": "$FONT$ (Paused)",
+    "placeholders": {
+      "font": {
+        "content": "$1"
+      }
+    }
+  },
+  "previewSentence": {
+    "message": "Mixed text: Beijing 🇨🇳 · New York 🇺🇸 · Tokyo 🇯🇵 · London 🇬🇧"
+  },
+  "selectFontTitle": {
+    "message": "Flag Font Style"
+  },
+  "importLocalFont": {
+    "message": "+ Import Font"
+  },
+  "currentSiteLabel": {
+    "message": "Current site"
+  },
+  "siteToggleTitle": {
+    "message": "Enable on this site"
+  },
+  "fontTwemojiSubtitle": {
+    "message": "Twitter / X clean flat style"
+  },
+  "fontNotoSubtitle": {
+    "message": "Google waving flag style"
+  },
+  "fontOpenmojiSubtitle": {
+    "message": "Open-source outlined style"
+  },
+  "customFontTag": {
+    "message": "Custom"
+  },
+  "customFontSubtitle": {
+    "message": "Local font ($EXT$)",
+    "placeholders": {
+      "ext": {
+        "content": "$1"
+      }
+    }
+  },
+  "customFontFallbackSubtitle": {
+    "message": "Local imported font"
+  },
+  "deleteCustomFontTitle": {
+    "message": "Remove custom font"
+  },
+  "statusDeleted": {
+    "message": "Custom font removed"
+  },
+  "statusFileTooLarge": {
+    "message": "Font file is too large (max 5 MB)"
+  },
+  "statusImported": {
+    "message": "Imported and switched to \"$NAME$\"",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusInvalidFont": {
+    "message": "Failed to parse font file. Please use woff2/woff/ttf/otf."
+  },
+  "langAuto": {
+    "message": "Auto"
+  },
+  "langSelectTitle": {
+    "message": "Switch language"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "extName": {
+    "message": "Emoji Win Flags - 国旗 Emoji 字体替换",
+    "description": "Extension name shown in Chrome Web Store and chrome://extensions"
+  },
+  "extTitle": {
+    "message": "Emoji Win Flags - 国旗字体替换",
+    "description": "Browser action tooltip title"
+  },
+  "extDescription": {
+    "message": "修复 Windows 下国旗 Emoji 显示为国家代码字母的问题，支持自由切换 Twemoji、Noto、OpenMoji 及自定义本地字体。",
+    "description": "Extension description"
+  },
+  "popupSubtitle": {
+    "message": "Windows 国旗 Emoji 字体替换"
+  },
+  "globalToggleTitle": {
+    "message": "全局开关"
+  },
+  "previewLabel": {
+    "message": "实时预览"
+  },
+  "previewPaused": {
+    "message": "$FONT$（已暂停）",
+    "placeholders": {
+      "font": {
+        "content": "$1"
+      }
+    }
+  },
+  "previewSentence": {
+    "message": "混排测试：北京 🇨🇳 · 纽约 🇺🇸 · 东京 🇯🇵 · 伦敦 🇬🇧"
+  },
+  "selectFontTitle": {
+    "message": "选择国旗字体"
+  },
+  "importLocalFont": {
+    "message": "+ 导入本地字体"
+  },
+  "currentSiteLabel": {
+    "message": "当前网站"
+  },
+  "siteToggleTitle": {
+    "message": "在当前网站启用"
+  },
+  "fontTwemojiSubtitle": {
+    "message": "Twitter / X 扁平简洁风"
+  },
+  "fontNotoSubtitle": {
+    "message": "Google 波浪旗帜风"
+  },
+  "fontOpenmojiSubtitle": {
+    "message": "开源描边手绘风"
+  },
+  "customFontTag": {
+    "message": "自定义"
+  },
+  "customFontSubtitle": {
+    "message": "本地导入 ($EXT$)",
+    "placeholders": {
+      "ext": {
+        "content": "$1"
+      }
+    }
+  },
+  "customFontFallbackSubtitle": {
+    "message": "本地导入字体"
+  },
+  "deleteCustomFontTitle": {
+    "message": "删除自定义字体"
+  },
+  "statusDeleted": {
+    "message": "已删除自定义字体"
+  },
+  "statusFileTooLarge": {
+    "message": "字体文件过大（最大支持 5 MB）"
+  },
+  "statusImported": {
+    "message": "已导入并切换到「$NAME$」",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusInvalidFont": {
+    "message": "无法解析该字体文件，请确认格式为 woff2/woff/ttf/otf"
+  },
+  "langAuto": {
+    "message": "自动"
+  },
+  "langSelectTitle": {
+    "message": "切换界面语言"
+  }
+}

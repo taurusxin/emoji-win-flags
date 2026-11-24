@@ -1,0 +1,95 @@
+{
+  "extName": {
+    "message": "Emoji Win Flags - 国旗絵文字フォント切替",
+    "description": "Extension name shown in Chrome Web Store and chrome://extensions"
+  },
+  "extTitle": {
+    "message": "Emoji Win Flags - 国旗絵文字フォント切替",
+    "description": "Browser action tooltip title"
+  },
+  "extDescription": {
+    "message": "Windows で国旗絵文字が2文字の国コードで表示される問題を修正します。Twemoji・Noto・OpenMoji やローカルフォントに切り替え可能です。",
+    "description": "Extension description"
+  },
+  "popupSubtitle": {
+    "message": "Windows 国旗絵文字フォント切替"
+  },
+  "globalToggleTitle": {
+    "message": "全体のオン／オフ"
+  },
+  "previewLabel": {
+    "message": "リアルタイムプレビュー"
+  },
+  "previewPaused": {
+    "message": "$FONT$（一時停止）",
+    "placeholders": {
+      "font": {
+        "content": "$1"
+      }
+    }
+  },
+  "previewSentence": {
+    "message": "混在テスト：東京 🇯🇵 · 北京 🇨🇳 · ニューヨーク 🇺🇸 · ロンドン 🇬🇧"
+  },
+  "selectFontTitle": {
+    "message": "国旗フォントを選択"
+  },
+  "importLocalFont": {
+    "message": "+ フォントを追加"
+  },
+  "currentSiteLabel": {
+    "message": "現在のサイト"
+  },
+  "siteToggleTitle": {
+    "message": "このサイトで有効にする"
+  },
+  "fontTwemojiSubtitle": {
+    "message": "Twitter / X フラットスタイル"
+  },
+  "fontNotoSubtitle": {
+    "message": "Google ウェーブ旗スタイル"
+  },
+  "fontOpenmojiSubtitle": {
+    "message": "オープンソース手描き風"
+  },
+  "customFontTag": {
+    "message": "カスタム"
+  },
+  "customFontSubtitle": {
+    "message": "ローカル追加 ($EXT$)",
+    "placeholders": {
+      "ext": {
+        "content": "$1"
+      }
+    }
+  },
+  "customFontFallbackSubtitle": {
+    "message": "ローカルフォント"
+  },
+  "deleteCustomFontTitle": {
+    "message": "カスタムフォントを削除"
+  },
+  "statusDeleted": {
+    "message": "カスタムフォントを削除しました"
+  },
+  "statusFileTooLarge": {
+    "message": "ファイルサイズが大きすぎます（最大 5 MB）"
+  },
+  "statusImported": {
+    "message": "「$NAME$」を追加して切り替えました",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusInvalidFont": {
+    "message": "フォントを読み込めません。woff2/woff/ttf/otf 形式を確認してください。"
+  },
+  "langAuto": {
+    "message": "自動"
+  },
+  "langSelectTitle": {
+    "message": "表示言語を切り替え"
+  }
+}

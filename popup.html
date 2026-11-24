@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emoji Win Flags</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <span class="brand-badge" id="brandBadge">🏁</span>
+        <div>
+          <h1 class="title">Emoji Win Flags</h1>
+          <p class="subtitle" data-i18n="popupSubtitle">Windows Flag Emoji Font Fixer</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <div class="lang-picker" id="langPicker">
+          <button
+            id="langBtn"
+            class="icon-btn"
+            type="button"
+            data-i18n-title="langSelectTitle"
+            title="Switch language"
+            aria-label="Language"
+            aria-haspopup="menu"
+            aria-expanded="false"
+          >
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="9.5"></circle>
+              <path d="M2.5 12h19"></path>
+              <path d="M12 2.5a14.5 14.5 0 0 1 0 19 14.5 14.5 0 0 1 0-19"></path>
+            </svg>
+          </button>
+          <div class="lang-menu" id="langMenu" role="menu" hidden></div>
+        </div>
+        <label class="switch" data-i18n-title="globalToggleTitle" title="Enable or disable globally">
+          <input type="checkbox" id="globalToggle" checked />
+          <span class="slider"></span>
+        </label>
+      </div>
+    </header>
+
+    <section class="preview-card" id="previewCard">
+      <div class="preview-label">
+        <span data-i18n="previewLabel">Live Preview</span>
+        <span class="preview-font-name" id="activeFontName">Twemoji</span>
+      </div>
+      <div class="preview-flags" id="previewFlags">
+        🇨🇳 🇺🇸 🇯🇵 🇬🇧 🇫🇷 🇩🇪 🇰🇷 🇪🇺 🏴󠁧󠁢󠁳󠁣󠁴󠁿 🇭🇰
+      </div>
+      <div class="preview-sentence" id="previewSentence" data-i18n="previewSentence">
+        Mixed text: Beijing 🇨🇳 · New York 🇺🇸 · Tokyo 🇯🇵 · London 🇬🇧
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <span class="section-title" data-i18n="selectFontTitle">Flag Font Style</span>
+        <button class="upload-btn" id="uploadBtn" type="button" data-i18n="importLocalFont">+ Import Font</button>
+        <input
+          type="file"
+          id="fontFileInput"
+          accept=".woff2,.woff,.ttf,.otf"
+          hidden
+        />
+      </div>
+      <div class="font-list" id="fontList"></div>
+      <p class="status-msg" id="statusMsg" hidden></p>
+    </section>
+
+    <section class="site-bar" id="siteBar" hidden>
+      <div class="site-info">
+        <span class="site-label" data-i18n="currentSiteLabel">Current site</span>
+        <span class="site-host" id="siteHost"></span>
+      </div>
+      <label class="switch switch-sm" data-i18n-title="siteToggleTitle" title="Enable on this site">
+        <input type="checkbox" id="siteToggle" checked />
+        <span class="slider"></span>
+      </label>
+    </section>
+  </div>
+
+  <script src="fonts.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
